@@ -1,4 +1,5 @@
 # KPoEM
+- **Preprint**: [Decoding the Poetic Language of Emotion in Korean Modern Poetry: Insights from a Human-Labeled Dataset and AI Modeling](https://doi.org/10.48550/arXiv.2509.03932)
 
 ## Overview
 The **KPoEM repository** provides a comprehensive framework for the computational analysis and creative generation of Korean poetry, integrating specialized deep learning models with digital humanities datasets. The workflow begins with automated parsing utilities for **Wikisource** to streamline the curation of modern Korean literary corpora. 
@@ -35,10 +36,11 @@ This system leverages a **FAISS vector store** built with enriched metadata to s
   * **Heuristic Context Filtering**: Filters retrieved candidates from the vector store based on their emotional metadata overlap to provide the most relevant "poetic triggers" for the generative process.
 
 ## Related Resources
-* Please refer to the following presentation:
+* Presentations:
   * LIM, I., Ji, H., & Kim, B. (2025). **한국 근현대시 감정 라벨링 데이터셋 구축: 문학 텍스트의 컴퓨터 기반 감정 분류와 생성형 AI 활용을 위한 기초 연구**. 제2회 한국현대문학자대회 (KorLitConf), Seoul, Korea. Zenodo. https://doi.org/10.5281/zenodo.15055795
-* The **KPoEM (Korean Poetry Emotion Mapping) Dataset** is publicly available through Zenodo. Please refer to the following link:​
-  * [10.5281/zenodo.15181396](https://doi.org/10.5281/zenodo.15181396)
- 
-## Prerprint Paper
-- [Decoding the Poetic Language of Emotion in Korean Modern Poetry: Insights from a Human-Labeled Dataset and AI Modeling](https://doi.org/10.48550/arXiv.2509.03932)
+* **KPoEM (Korean Poetry Emotion Mapping) Dataset**​
+  * LIM, I., Ji, H., Koo, S., Jung, S.-. yi ., YUN, J., & Kim, B. (2025). KPoEM dataset [Data set]. Digital Humanities and Social Sciences Korea Conference (DHSS Korea), James Joo-Jin Kim Center for Korean Studies, Pennsylvania, USA. Zenodo. [https://doi.org/10.5281/zenodo.15598092](https://doi.org/10.5281/zenodo.15598092)
+* **KPoEM (Korean Poetry Emotion Mapping) Model**
+  * [AKS-DHLAB/KPoEM](https://huggingface.co/AKS-DHLAB/KPoEM)
+    * [AKS-DHLAB/KcELECTRA_KOTEOnly](https://huggingface.co/AKS-DHLAB/KcELECTRA_KOTEOnly)
+    * [AKS-DHLAB/KcELECTRA_KPoEMOnly](https://huggingface.co/AKS-DHLAB/KcELECTRA_KPoEMOnly) 
