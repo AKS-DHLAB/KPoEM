@@ -37,10 +37,8 @@ This system leverages a **FAISS vector store** built with enriched metadata to s
   *  This is the version of the `KPoEM_poetry_generator.ipynb` file specifically configured for execution in Google Colab.
 
 ## Related Resources
-* Presentations:
-  * LIM, I., Ji, H., & Kim, B. (2025). **한국 근현대시 감정 라벨링 데이터셋 구축: 문학 텍스트의 컴퓨터 기반 감정 분류와 생성형 AI 활용을 위한 기초 연구**. 제2회 한국현대문학자대회 (KorLitConf), Seoul, Korea. Zenodo. https://doi.org/10.5281/zenodo.15055795
 * **KPoEM (Korean Poetry Emotion Mapping) Dataset**​
-  * LIM, I., Ji, H., Koo, S., Jung, S.-. yi ., YUN, J., & Kim, B. (2025). KPoEM dataset [Data set]. Digital Humanities and Social Sciences Korea Conference (DHSS Korea), James Joo-Jin Kim Center for Korean Studies, Pennsylvania, USA. Zenodo. [https://doi.org/10.5281/zenodo.15598092](https://doi.org/10.5281/zenodo.15598092)
+  * [https://doi.org/10.5281/zenodo.15598092](https://doi.org/10.5281/zenodo.15598092)
 * **KPoEM (Korean Poetry Emotion Mapping) Model**
   * [AKS-DHLAB/KPoEM](https://huggingface.co/AKS-DHLAB/KPoEM)
     * [AKS-DHLAB/KcELECTRA_KOTEOnly](https://huggingface.co/AKS-DHLAB/KcELECTRA_KOTEOnly)
