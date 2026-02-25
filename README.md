@@ -34,6 +34,8 @@ This system leverages a **FAISS vector store** built with enriched metadata to s
   * **RAG-Enhanced Generation**: Implements a Retrieval-Augmented Generation (RAG) pipeline that retrieves contextually and emotionally similar verses from a vector database to guide the LLM's style.
   * **LLM Pipeline Wrapper**: Utilizes LangChain to wrap advanced Korean models (like `Midm-2.0`) and specialized prompt templates to ensure the output maintains a consistent poetic tone.
   * **Heuristic Context Filtering**: Filters retrieved candidates from the vector store based on their emotional metadata overlap to provide the most relevant "poetic triggers" for the generative process.
+* **`[colab]KPoEM_poetry_generator.ipynb`**
+  *  This is the version of the `KPoEM_poetry_generator.ipynb` file specifically configured for execution in Google Colab.
 
 ## Related Resources
 * Presentations:
