@@ -1,5 +1,4 @@
 # KPoEM
-- **Preprint**: [Decoding the Poetic Language of Emotion in Korean Modern Poetry: Insights from a Human-Labeled Dataset and AI Modeling](https://doi.org/10.48550/arXiv.2509.03932)
 
 ## Overview
 The **KPoEM repository** provides a comprehensive framework for the computational analysis and creative generation of Korean poetry, integrating specialized deep learning models with digital humanities datasets. The workflow begins with automated parsing utilities for **Wikisource** to streamline the curation of modern Korean literary corpora. 
