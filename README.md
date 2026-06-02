@@ -1,6 +1,5 @@
 # KPoEM
 
-## Overview
 The **KPoEM repository** provides a comprehensive framework for the computational analysis and creative generation of Korean poetry, integrating specialized deep learning models with digital humanities datasets. The workflow begins with automated parsing utilities for **Wikisource** to streamline the curation of modern Korean literary corpora. 
 
 These collected data, alongside the **KPoEM v4** and **KOTE datasets**, are utilized in a robust fine-tuning pipeline for the **KcELECTRA-base model** to achieve high-accuracy emotion classification across 44 distinct labels. The project facilitates seamless deployment by converting PyTorch Lightning checkpoints into Hugging Face formats and implements a sophisticated **Retrieval-Augmented Generation (RAG) system**. 
@@ -43,3 +42,7 @@ This system leverages a **FAISS vector store** built with enriched metadata to s
   * [AKS-DHLAB/KPoEM](https://huggingface.co/AKS-DHLAB/KPoEM)
     * [AKS-DHLAB/KcELECTRA_KOTEOnly](https://huggingface.co/AKS-DHLAB/KcELECTRA_KOTEOnly)
     * [AKS-DHLAB/KcELECTRA_KPoEMOnly](https://huggingface.co/AKS-DHLAB/KcELECTRA_KPoEMOnly) 
+
+## Citations
+* LIM, I., Ji, H., & Kim, B. (2026). KPoEM: A Human-Annotated Dataset for Emotion Classification and RAG-Based Poetry Generation in Korean Modern Poetry. The Review of Korean Studies, 29(1), 161-206.
+  * [10.25024/review.2026.29.1.161](https://doi.org/10.25024/review.2026.29.1.161)
