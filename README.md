@@ -45,4 +45,4 @@ This system leverages a **FAISS vector store** built with enriched metadata to s
 
 ## Citations
 * LIM, I., Ji, H., & Kim, B. (2026). KPoEM: A Human-Annotated Dataset for Emotion Classification and RAG-Based Poetry Generation in Korean Modern Poetry. *The Review of Korean Studies, 29*(1), 161-206.
-  * [10.25024/review.2026.29.1.161](https://doi.org/10.25024/review.2026.29.1.161)
+  * [10.25024/review.2026.29.1.006](https://doi.org/10.25024/review.2026.29.1.006)
